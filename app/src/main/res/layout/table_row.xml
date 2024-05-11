@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/removeButton">
+
     <TextView
         android:id="@+id/numberTextView"
         android:layout_width="0dp"
@@ -23,6 +24,7 @@
         android:background="@drawable/cell_shape"
         android:textSize="13sp" />
 
+
     <TextView
         android:id="@+id/emailTextView"
         android:layout_width="0dp"
@@ -32,6 +34,7 @@
         android:textColor="#000"
         android:background="@drawable/cell_shape"
         android:textSize="13sp" />
+
 
 </TableRow>
 

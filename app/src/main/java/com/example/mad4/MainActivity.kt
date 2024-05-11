@@ -44,6 +44,7 @@ class MainActivity : Activity() {
 
             db.execSQL(CREATE_CONTACTS_TABLE)
         }
+
         val addButton = findViewById<Button>(R.id.addButton)
         val nameEditText = findViewById<EditText>(R.id.nameEditText)
         val numberEditText = findViewById<EditText>(R.id.numberEditText)
@@ -53,7 +54,6 @@ class MainActivity : Activity() {
 
         val new: FloatingActionButton = findViewById(R.id.floatingActionButton)
         var isRotated = false
-
 
         new.setOnClickListener {
 
