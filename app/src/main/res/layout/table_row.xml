@@ -18,7 +18,7 @@
         android:id="@+id/nameTextView"
         android:layout_width="0dp"
         android:layout_height="22dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:gravity="center"
         android:textColor="#000"
         android:background="@drawable/cell_shape"
@@ -29,10 +29,10 @@
         android:id="@+id/emailTextView"
         android:layout_width="0dp"
         android:layout_height="22dp"
-        android:layout_weight="2"
+        android:layout_weight="1.5"
+        android:background="@drawable/cell_shape"
         android:gravity="center"
         android:textColor="#000"
-        android:background="@drawable/cell_shape"
         android:textSize="13sp" />
 
 

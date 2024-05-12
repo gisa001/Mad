@@ -29,7 +29,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Task_No"
+                    android:text="T_No"
                     android:gravity="center"
                     android:textSize="16sp"
                     android:background="@color/pink"
@@ -92,7 +92,7 @@
                     android:textStyle="bold"
                     android:gravity="center"
                     android:background="@drawable/header_shape"
-                    android:text="User Information">
+                    android:text="Task Information">
                 </TextView>
 
                 <EditText
